@@ -4,9 +4,9 @@
 
 <img src="src/assets/char1.png" width="120" alt="Arcana Card">
 &nbsp;
-<img src="src/assets/char2.png" width="220" alt="Protagonist">
+<img src="src/assets/char3.png" width="220" alt="Protagonist">
 &nbsp;
-<img src="src/assets/char3.png" width="80" alt="New">
+<img src="src/assets/char2.png" width="80" alt="New">
 
 <br/>
 
