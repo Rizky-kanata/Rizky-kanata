@@ -2,9 +2,13 @@
 
 <!--=== TARTARUS ACCESS TERMINAL ===-->
 
+<img src="src/assets/hero.png" width="80" alt="Podium">
+&nbsp;
 <img src="src/assets/card.png" width="120" alt="Arcana Card">
-&nbsp;&nbsp;&nbsp;
+&nbsp;
 <img src="src/assets/char2.png" width="220" alt="Protagonist">
+&nbsp;
+<img src="src/assets/newsign.png" width="80" alt="New">
 
 <br/>
 
