@@ -75,7 +75,7 @@
 
 <br/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Rizky-kanata&theme=transparent" width="860" alt="Activity Graph">
+<img src="assets/activity-graph.svg" width="860" alt="Activity Graph">
 
 <br/><br/>
 
@@ -84,28 +84,28 @@
 <br/>
 
 <a href="https://github.com/Rizky-kanata/Semantic">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Rizky-kanata&repo=Semantic&theme=transparent&hide_border=true&bg_color=04060f&title_color=00D4FF&icon_color=c4001a&text_color=ffffff" width="410" alt="Semantic">
+  <img src="assets/Semantic-card.svg" width="410" alt="Semantic">
 </a>
 <a href="https://github.com/Rizky-kanata/Form">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Rizky-kanata&repo=Form&theme=transparent&hide_border=true&bg_color=04060f&title_color=00D4FF&icon_color=c4001a&text_color=ffffff" width="410" alt="Form">
+  <img src="assets/Form-card.svg" width="410" alt="Form">
 </a>
 
 <br/>
 
 <a href="https://github.com/Rizky-kanata/modul-4">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Rizky-kanata&repo=modul-4&theme=transparent&hide_border=true&bg_color=04060f&title_color=00D4FF&icon_color=c4001a&text_color=ffffff" width="410" alt="modul-4">
+  <img src="assets/modul-4-card.svg" width="410" alt="modul-4">
 </a>
 <a href="https://github.com/Rizky-kanata/modul-13">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Rizky-kanata&repo=modul-13&theme=transparent&hide_border=true&bg_color=04060f&title_color=00D4FF&icon_color=c4001a&text_color=ffffff" width="410" alt="modul-13">
+  <img src="assets/modul-13-card.svg" width="410" alt="modul-13">
 </a>
 
 <br/>
 
 <a href="https://github.com/Rizky-kanata/modul-7">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Rizky-kanata&repo=modul-7&theme=transparent&hide_border=true&bg_color=04060f&title_color=00D4FF&icon_color=c4001a&text_color=ffffff" width="410" alt="modul-7">
+  <img src="assets/modul-7-card.svg" width="410" alt="modul-7">
 </a>
 <a href="https://github.com/Rizky-kanata/dwdwd">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Rizky-kanata&repo=dwdwd&theme=transparent&hide_border=true&bg_color=04060f&title_color=00D4FF&icon_color=c4001a&text_color=ffffff" width="410" alt="dwdwd">
+  <img src="assets/dwdwd-card.svg" width="410" alt="dwdwd">
 </a>
 
 <br/><br/>

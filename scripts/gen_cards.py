@@ -1,0 +1,84 @@
+import json
+import urllib.request
+import urllib.error
+import os
+
+repos = ["Semantic", "Form", "modul-4", "modul-13", "modul-7", "dwdwd"]
+username = "Rizky-kanata"
+
+def fetch_repo_data(repo):
+    try:
+        url = f"https://api.github.com/repos/{username}/{repo}"
+        # using a simple User-Agent
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req) as response:
+            data = json.loads(response.read().decode())
+            return data
+    except urllib.error.HTTPError as e:
+        print(f"Error fetching {repo}: {e}")
+    except Exception as e:
+        print(f"Error: {e}")
+    return {"name": repo, "description": "No description provided", "language": "Unknown", "stargazers_count": 0, "forks_count": 0}
+
+def generate_svg(data):
+    name = data.get('name', 'Unknown')
+    desc = data.get('description') or "No description provided"
+    lang = data.get('language') or "N/A"
+    
+    if len(desc) > 50:
+        desc = desc[:47] + "..."
+
+    svg = f"""<svg width="420" height="130" viewBox="0 0 420 130" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#04060f"/>
+      <stop offset="100%" style="stop-color:#0a0e1e"/>
+    </linearGradient>
+    <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00D4FF"/>
+      <stop offset="100%" style="stop-color:#0d2560"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  
+  <!-- Background with sharp corner accents -->
+  <rect x="2" y="2" width="416" height="126" fill="url(#bg)" stroke="#1d4ed8" stroke-width="1" rx="2"/>
+  <rect x="0" y="0" width="420" height="2" fill="#c4001a" filter="url(#glow)"/>
+  <rect x="0" y="128" width="420" height="2" fill="#00D4FF" filter="url(#glow)"/>
+  
+  <!-- Glitch/Cyberpunk decorative elements -->
+  <polygon points="400,2 418,2 418,20" fill="#00D4FF"/>
+  <polygon points="2,128 2,110 20,128" fill="#c4001a"/>
+  
+  <!-- Icon / Name -->
+  <svg x="15" y="15" width="20" height="20" viewBox="0 0 16 16" fill="#c4001a">
+    <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
+  </svg>
+  <text x="45" y="29" font-family="monospace" font-weight="800" font-size="18" fill="#00D4FF">{name}</text>
+  
+  <!-- Description -->
+  <text x="18" y="58" font-family="sans-serif" font-weight="400" font-size="13" fill="#8b949e">{desc}</text>
+  
+  <!-- Stats/Footer -->
+  <circle cx="23" cy="97" r="6" fill="#e34c26" />
+  <text x="36" y="101" font-family="monospace" font-weight="600" font-size="12" fill="#ffffff">{lang}</text>
+  
+  <!-- Grid/Tech line -->
+  <path d="M 320 115 L 400 115 L 405 110" fill="none" stroke="#00D4FF" stroke-width="1" opacity="0.3"/>
+  <circle cx="320" cy="115" r="2" fill="#c4001a"/>
+</svg>"""
+    return svg
+
+if not os.path.exists('assets'):
+    os.makedirs('assets')
+
+for repo in repos:
+    print(f"Generating for {repo}...")
+    data = fetch_repo_data(repo)
+    svg_content = generate_svg(data)
+    with open(f"assets/{repo}-card.svg", "w", encoding="utf-8") as f:
+        f.write(svg_content)
+    print(f"Saved assets/{repo}-card.svg")
