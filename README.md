@@ -16,20 +16,11 @@
 
 <img src="assets/dossier.svg" width="860" alt="Profile Dossier">
 
-</div>
+<img src="assets/dossier-info.svg" width="860" alt="Dossier Info">
 
-```text
-OPERATIVE  : Muhammad Rizky Ardian
-HANDLE     : @Rizky-kanata
-FACTION    : S.E.E.S. - Specialized Extracurricular Execution Squad
-PHASE      : The Dark Hour
-OBJECTIVE  : Build. Break. Repeat.
-PERSONA    : Active - Standing By
-```
+<br/><br/>
 
-<div align="center">
-
-<img src="src/assets/mainm2.jpeg" width="860" alt="Persona Cut-in">
+<img src="src/assets/cutin1.gif" width="860" alt="Persona Cut-in 1">
 
 <br/><br/>
 
@@ -37,20 +28,25 @@ PERSONA    : Active - Standing By
 
 <br/>
 
-![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=3178C6)
-![React](https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-0d1117?style=for-the-badge&logo=nextdotjs&logoColor=ffffff)
-![Node.js](https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=nodedotjs&logoColor=3C873A)
-![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3776AB)
-![Git](https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=F05032)
-![Linux](https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=FCC624)
-![Figma](https://img.shields.io/badge/Figma-0d1117?style=for-the-badge&logo=figma&logoColor=F24E1E)
-![VS Code](https://img.shields.io/badge/VS_Code-0d1117?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC)
+<div align="center">
+  <img src="https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript">
+  <img src="https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript">
+  <img src="https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/Next.js-0d1117?style=for-the-badge&logo=nextdotjs&logoColor=ffffff" alt="Next.js">
+  <img src="https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=nodedotjs&logoColor=3C873A" alt="Node.js">
+</div>
+<br/>
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python">
+  <img src="https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=F05032" alt="Git">
+  <img src="https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux">
+  <img src="https://img.shields.io/badge/Figma-0d1117?style=for-the-badge&logo=figma&logoColor=F24E1E" alt="Figma">
+  <img src="https://img.shields.io/badge/VS_Code-0d1117?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC" alt="VS Code">
+</div>
 
 <br/><br/>
 
-<img src="src/assets/mainm.jpeg" width="860" alt="Persona Cut-in 2">
+<img src="src/assets/cutin2.gif" width="860" alt="Persona Cut-in 2">
 
 <br/><br/>
 
@@ -68,6 +64,14 @@ PERSONA    : Active - Standing By
 <br/><br/>
 
 <img src="assets/ctf.svg" width="860" alt="Activity Log">
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rizky-kanata/Rizky-kanata/output/github-contribution-grid-snake-blue.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rizky-kanata/Rizky-kanata/output/github-contribution-grid-snake-blue.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Rizky-kanata/Rizky-kanata/output/github-contribution-grid-snake-blue.svg" width="860">
+</picture>
 
 <br/>
 
@@ -106,7 +110,7 @@ PERSONA    : Active - Standing By
 
 <br/><br/>
 
-<img src="src/assets/mainf.jpeg" width="860" alt="Persona Cut-in 3">
+<img src="src/assets/cutin3.gif" width="860" alt="Persona Cut-in 3">
 
 <br/><br/>
 

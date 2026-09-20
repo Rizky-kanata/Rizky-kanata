@@ -1,0 +1,69 @@
+<svg width="860" height="220" viewBox="0 0 860 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgD" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#030712"/><stop offset="100%" style="stop-color:#081636"/>
+    </linearGradient>
+    <filter id="glowD"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="cpD"><rect width="860" height="220" rx="8"/></clipPath>
+  </defs>
+  <g clip-path="url(#cpD)">
+    <rect width="860" height="220" fill="url(#bgD)"/>
+    <g opacity="0.05" stroke="#00D4FF" stroke-width="0.75">
+      <line x1="0" y1="44" x2="860" y2="44"/><line x1="0" y1="88" x2="860" y2="88"/>
+      <line x1="0" y1="132" x2="860" y2="132"/><line x1="0" y1="176" x2="860" y2="176"/>
+    </g>
+    <rect x="0" y="0" width="860" height="2" fill="#0d2560"/>
+    <rect x="0" y="218" width="860" height="2" fill="#0d2560"/>
+    <rect x="0" y="0" width="4" height="220" fill="#c4001a"/>
+    <polygon points="4,0 40,0 20,220 4,220" fill="#c4001a" opacity="0.2"/>
+    <rect x="850" y="0" width="10" height="220" fill="#0d2560" opacity="0.5"/>
+    <rect x="0" y="0" width="860" height="1" fill="#00D4FF" opacity="0.1">
+      <animate attributeName="y" values="0;220;0" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Info blocks -->
+    <rect x="40" y="30" width="360" height="30" fill="rgba(255,255,255,0.02)"/>
+    <rect x="40" y="30" width="3" height="30" fill="#00D4FF"/>
+    <text x="55" y="49" font-family="monospace" font-size="12" fill="#00D4FF" font-weight="bold" letter-spacing="1">OPERATIVE</text>
+    <text x="160" y="49" font-family="monospace" font-size="12" fill="white" letter-spacing="1">: MUHAMMAD RIZKY ARDIAN</text>
+
+    <rect x="40" y="70" width="360" height="30" fill="rgba(255,255,255,0.02)"/>
+    <rect x="40" y="70" width="3" height="30" fill="#00D4FF"/>
+    <text x="55" y="89" font-family="monospace" font-size="12" fill="#00D4FF" font-weight="bold" letter-spacing="1">HANDLE</text>
+    <text x="160" y="89" font-family="monospace" font-size="12" fill="white" letter-spacing="1">: @RIZKY-KANATA</text>
+
+    <rect x="40" y="110" width="360" height="30" fill="rgba(255,255,255,0.02)"/>
+    <rect x="40" y="110" width="3" height="30" fill="#00D4FF"/>
+    <text x="55" y="129" font-family="monospace" font-size="12" fill="#00D4FF" font-weight="bold" letter-spacing="1">FACTION</text>
+    <text x="160" y="129" font-family="monospace" font-size="12" fill="white" letter-spacing="1">: S.E.E.S. - FIELD AGENT</text>
+
+    <!-- Right Side -->
+    <rect x="440" y="30" width="380" height="30" fill="rgba(255,255,255,0.02)"/>
+    <rect x="440" y="30" width="3" height="30" fill="#c4001a"/>
+    <text x="455" y="49" font-family="monospace" font-size="12" fill="#c4001a" font-weight="bold" letter-spacing="1">PHASE</text>
+    <text x="560" y="49" font-family="monospace" font-size="12" fill="white" letter-spacing="1">: THE DARK HOUR</text>
+
+    <rect x="440" y="70" width="380" height="30" fill="rgba(255,255,255,0.02)"/>
+    <rect x="440" y="70" width="3" height="30" fill="#c4001a"/>
+    <text x="455" y="89" font-family="monospace" font-size="12" fill="#c4001a" font-weight="bold" letter-spacing="1">OBJECTIVE</text>
+    <text x="560" y="89" font-family="monospace" font-size="12" fill="white" letter-spacing="1">: BUILD. BREAK. REPEAT.</text>
+
+    <rect x="440" y="110" width="380" height="30" fill="rgba(255,255,255,0.02)"/>
+    <rect x="440" y="110" width="3" height="30" fill="#c4001a"/>
+    <text x="455" y="129" font-family="monospace" font-size="12" fill="#c4001a" font-weight="bold" letter-spacing="1">PERSONA</text>
+    <text x="560" y="129" font-family="monospace" font-size="12" fill="#00D4FF" font-weight="bold" letter-spacing="1" filter="url(#glowD)">: ACTIVE - STANDING BY</text>
+
+    <!-- Bottom Pulse -->
+    <g transform="translate(430, 180)">
+      <circle cx="0" cy="0" r="14" fill="none" stroke="#00D4FF" stroke-width="2">
+        <animate attributeName="r" values="10;20;10" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.8;0;0.8" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="0" r="4" fill="#00D4FF"/>
+      <line x1="-150" y1="0" x2="-20" y2="0" stroke="rgba(255,255,255,0.2)"/>
+      <line x1="20" y1="0" x2="150" y2="0" stroke="rgba(255,255,255,0.2)"/>
+      <text x="-160" y="4" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.3)" text-anchor="end">SYSTEM.READY</text>
+      <text x="160" y="4" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.3)">AWAITING.INPUT</text>
+    </g>
+  </g>
+</svg>
