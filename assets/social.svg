@@ -1,7 +1,11 @@
-﻿<svg width="860" height="32" viewBox="0 0 860 32" xmlns="http://www.w3.org/2000/svg">
-  <rect width="860" height="32" fill="#04060f" rx="4"/>
-  <polygon points="0,0 200,0 176,32 0,32" fill="#0d2560" opacity="0.7"/>
+﻿<svg width="860" height="60" viewBox="0 0 860 60" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style="stop-color:#081636"/><stop offset="100%" style="stop-color:#04060f"/></linearGradient><linearGradient id="acc" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style="stop-color:#0d2560"/><stop offset="100%" style="stop-color:#1d4ed8"/></linearGradient></defs>
+  <rect width="860" height="60" fill="url(#bg)" rx="4"/>
+  <polygon points="0,0 250,0 210,60 0,60" fill="url(#acc)" opacity="0.7"/>
   <rect x="0" y="0" width="860" height="2" fill="#c4001a"/>
-  <text x="16" y="21" font-family="monospace" font-size="12" fill="white" font-weight="bold" letter-spacing="4">&#x2B21; SOCIAL LINKS</text>
-  <text x="620" y="21" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.3)" letter-spacing="2">RIZKY-KANATA &#xFF0F; 04</text>
+  <text x="20" y="22" font-family="monospace" font-size="8" fill="rgba(0,212,255,0.3)" letter-spacing="3">SECTION.06</text>
+  <text x="20" y="44" font-family="monospace" font-size="15" fill="white" font-weight="bold" letter-spacing="4">&#x25C6; COMM-LINKS</text>
+  <line x1="270" y1="30" x2="780" y2="30" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <text x="724" y="26" font-family="monospace" font-size="9" fill="rgba(0,212,255,0.3)" letter-spacing="2">RIZKY-KANATA</text>
+  <text x="780" y="26" font-family="monospace" font-size="9" fill="rgba(196,0,26,0.5)" letter-spacing="2">/05</text>
 </svg>

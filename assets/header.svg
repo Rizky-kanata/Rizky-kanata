@@ -1,35 +1,75 @@
-﻿<svg width="860" height="190" viewBox="0 0 860 190" xmlns="http://www.w3.org/2000/svg">
+﻿<svg width="860" height="260" viewBox="0 0 860 260" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#04060f"/>
-      <stop offset="100%" style="stop-color:#0a1a3a"/>
+      <stop offset="0%" style="stop-color:#030712"/>
+      <stop offset="50%" style="stop-color:#081636"/>
+      <stop offset="100%" style="stop-color:#030712"/>
     </linearGradient>
     <linearGradient id="bluG" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#0d2560"/>
-      <stop offset="100%" style="stop-color:#1a3d7a"/>
+      <stop offset="100%" style="stop-color:#1d4ed8"/>
     </linearGradient>
+    <linearGradient id="redG" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#c4001a"/>
+      <stop offset="100%" style="stop-color:#7f0010"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="hc"><rect width="860" height="260" rx="8"/></clipPath>
   </defs>
-  <rect width="860" height="190" fill="url(#bgG)" rx="8"/>
-  <polygon points="0,0 340,0 290,190 0,190" fill="url(#bluG)" opacity="0.6"/>
-  <polygon points="335,0 360,0 310,190 285,190" fill="#2a5ca8" opacity="0.4"/>
-  <rect x="852" y="0" width="8" height="190" fill="#c4001a"/>
-  <rect x="843" y="0" width="3" height="190" fill="rgba(245,122,139,0.3)"/>
-  <rect x="0" y="0" width="860" height="4" fill="#c4001a" rx="8"/>
-  <rect x="12" y="12" width="24" height="3" fill="#c4001a"/>
-  <rect x="12" y="12" width="3" height="24" fill="#c4001a"/>
-  <text x="24" y="178" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.2)" letter-spacing="3">DARK HOUR &#xFF0F; &#x6697;&#x3044;&#x6642;&#x9593; &#xFF0F; MEMENTO MORI</text>
-  <text x="46" y="90" font-family="Arial Black,Impact,sans-serif" font-size="50" font-weight="900" fill="white" letter-spacing="4">RIZKY</text>
-  <text x="46" y="146" font-family="Arial Black,Impact,sans-serif" font-size="50" font-weight="900" fill="white" letter-spacing="4" opacity="0.85">ARDIAN</text>
-  <rect x="380" y="38" width="180" height="24" fill="#c4001a" opacity="0.9" rx="2"/>
-  <text x="390" y="55" font-family="monospace" font-size="12" fill="white" font-weight="bold" letter-spacing="2">S.E.E.S. OPERATIVE</text>
-  <rect x="380" y="70" width="200" height="24" fill="#0d2560" opacity="0.9" rx="2"/>
-  <text x="390" y="87" font-family="monospace" font-size="12" fill="#7ab3ff" font-weight="bold" letter-spacing="2">DEVELOPER</text>
-  <rect x="380" y="102" width="280" height="24" fill="#0d2560" opacity="0.9" rx="2"/>
-  <text x="390" y="119" font-family="monospace" font-size="12" fill="#7ab3ff" font-weight="bold" letter-spacing="2">JS &#xFF0F; TS &#xFF0F; REACT &#xFF0F; NODE</text>
-  <text x="380" y="154" font-family="monospace" font-size="11" fill="rgba(255,255,255,0.45)" letter-spacing="2">@Rizky-kanata &#xB7; INDONESIA</text>
-  <circle cx="680" cy="95" r="65" fill="none" stroke="rgba(196,0,26,0.2)" stroke-width="1.5"/>
-  <circle cx="680" cy="95" r="40" fill="none" stroke="rgba(42,92,168,0.2)" stroke-width="1"/>
-  <circle cx="680" cy="95" r="6" fill="#c4001a" opacity="0.7"/>
-  <text x="680" y="40" font-family="monospace" font-size="8" fill="rgba(196,0,26,0.5)" text-anchor="middle" letter-spacing="3">PERSONA</text>
-  <text x="680" y="158" font-family="monospace" font-size="8" fill="rgba(196,0,26,0.5)" text-anchor="middle" letter-spacing="3">ACTIVE</text>
+  <g clip-path="url(#hc)">
+    <rect width="860" height="260" fill="url(#bgG)"/>
+    <g opacity="0.05" stroke="#00D4FF" stroke-width="0.75">
+      <line x1="0" y1="52" x2="860" y2="52"/><line x1="0" y1="104" x2="860" y2="104"/>
+      <line x1="0" y1="156" x2="860" y2="156"/><line x1="0" y1="208" x2="860" y2="208"/>
+      <line x1="143" y1="0" x2="143" y2="260"/><line x1="286" y1="0" x2="286" y2="260"/>
+      <line x1="429" y1="0" x2="429" y2="260"/><line x1="572" y1="0" x2="572" y2="260"/>
+      <line x1="715" y1="0" x2="715" y2="260"/>
+    </g>
+    <polygon points="0,0 420,0 340,260 0,260" fill="url(#bluG)" opacity="0.4"/>
+    <polygon points="415,0 450,0 370,260 335,260" fill="#2563eb" opacity="0.25"/>
+    <polygon points="445,0 460,0 380,260 365,260" fill="#00D4FF" opacity="0.1"/>
+    <rect x="0" y="0" width="860" height="4" fill="url(#redG)"/>
+    <rect x="854" y="0" width="6" height="260" fill="url(#redG)"/>
+    <rect x="846" y="0" width="2" height="260" fill="#f87171" opacity="0.3"/>
+    <rect x="0" y="257" width="860" height="3" fill="#0d2560"/>
+    <rect x="14" y="14" width="24" height="2" fill="#c4001a"/>
+    <rect x="14" y="14" width="2" height="24" fill="#c4001a"/>
+    <rect x="822" y="14" width="24" height="2" fill="#c4001a"/>
+    <rect x="844" y="14" width="2" height="24" fill="#c4001a"/>
+    <rect x="0" y="0" width="860" height="2" fill="#00D4FF" opacity="0.2">
+      <animate attributeName="y" values="0;258;0" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="44" y="95" font-family="'Segoe UI Black',Impact,sans-serif" font-size="54" font-weight="900" fill="white" letter-spacing="4">RIZKY</text>
+    <text x="44" y="152" font-family="'Segoe UI Black',Impact,sans-serif" font-size="54" font-weight="900" fill="white" letter-spacing="4" opacity="0.85">ARDIAN</text>
+    <rect x="44" y="166" width="260" height="2" fill="#00D4FF" opacity="0.7" filter="url(#glow)"/>
+    <rect x="380" y="48" width="180" height="26" fill="#c4001a" rx="3"/>
+    <text x="390" y="66" font-family="monospace" font-size="12" fill="white" font-weight="bold" letter-spacing="2">S.E.E.S. OPERATIVE</text>
+    <rect x="380" y="82" width="160" height="24" fill="#0d2560" opacity="0.95" rx="3"/>
+    <text x="390" y="99" font-family="monospace" font-size="11" fill="#00D4FF" font-weight="bold" letter-spacing="2">FULL-STACK DEV</text>
+    <rect x="380" y="114" width="280" height="24" fill="#0d2560" opacity="0.85" rx="3"/>
+    <text x="390" y="131" font-family="monospace" font-size="11" fill="#93c5fd" font-weight="bold" letter-spacing="2">JS &#x2022; TS &#x2022; REACT &#x2022; NODE &#x2022; PY</text>
+    <text x="382" y="165" font-family="monospace" font-size="11" fill="rgba(255,255,255,0.4)" letter-spacing="2">@Rizky-kanata &#x2022; INDONESIA</text>
+    <g filter="url(#glow)">
+      <circle cx="730" cy="130" r="70" fill="none" stroke="rgba(0,212,255,0.15)" stroke-width="1.5"/>
+      <circle cx="730" cy="130" r="55" fill="none" stroke="rgba(196,0,26,0.3)" stroke-width="2" stroke-dasharray="8 4">
+        <animateTransform attributeName="transform" type="rotate" from="0 730 130" to="360 730 130" dur="25s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="730" cy="130" r="40" fill="none" stroke="rgba(37,99,235,0.4)" stroke-width="1.5" stroke-dasharray="5 3">
+        <animateTransform attributeName="transform" type="rotate" from="360 730 130" to="0 730 130" dur="18s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="730" cy="130" r="8" fill="#c4001a" opacity="0.9">
+        <animate attributeName="r" values="8;10;8" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <text x="730" y="44" font-family="monospace" font-size="9" fill="rgba(0,212,255,0.6)" text-anchor="middle" letter-spacing="4">PERSONA</text>
+    <text x="730" y="222" font-family="monospace" font-size="9" fill="rgba(196,0,26,0.6)" text-anchor="middle" letter-spacing="4">ACTIVE</text>
+    <rect x="0" y="228" width="860" height="32" fill="rgba(3,7,18,0.7)"/>
+    <text x="24" y="248" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.25)" letter-spacing="3">STATUS: STANDING BY</text>
+    <circle cx="170" cy="245" r="3" fill="#00D4FF">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="182" y="248" font-family="monospace" font-size="9" fill="#00D4FF" opacity="0.6" letter-spacing="2">LIVE</text>
+    <text x="320" y="248" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.2)" letter-spacing="2">TARTARUS &#x2022; MEMENTO MORI</text>
+    <text x="825" y="248" font-family="monospace" font-size="9" fill="rgba(248,113,113,0.5)" text-anchor="end" letter-spacing="2">v2.0</text>
+  </g>
 </svg>

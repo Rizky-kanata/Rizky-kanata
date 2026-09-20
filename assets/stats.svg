@@ -1,7 +1,25 @@
-﻿<svg width="860" height="32" viewBox="0 0 860 32" xmlns="http://www.w3.org/2000/svg">
-  <rect width="860" height="32" fill="#04060f" rx="4"/>
-  <polygon points="0,0 200,0 176,32 0,32" fill="#c4001a" opacity="0.7"/>
+﻿<svg width="860" height="60" viewBox="0 0 860 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a0008"/>
+      <stop offset="100%" style="stop-color:#04060f"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c4001a"/>
+      <stop offset="100%" style="stop-color:#7f0010"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="60" fill="url(#bg)" rx="4"/>
+  <polygon points="0,0 260,0 220,60 0,60" fill="url(#acc)" opacity="0.8"/>
+  <polygon points="255,0 275,0 235,60 215,60" fill="#f87171" opacity="0.1"/>
   <rect x="0" y="0" width="860" height="2" fill="#c4001a"/>
-  <text x="16" y="21" font-family="monospace" font-size="12" fill="white" font-weight="bold" letter-spacing="4">&#x2B21; BATTLE STATS</text>
-  <text x="620" y="21" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.3)" letter-spacing="2">RIZKY-KANATA &#xFF0F; 01</text>
+  <rect x="0" y="58" width="860" height="2" fill="#0d2560"/>
+  <rect x="855" y="0" width="5" height="60" fill="#c4001a" opacity="0.4"/>
+  <text x="20" y="22" font-family="monospace" font-size="8" fill="rgba(248,113,113,0.4)" letter-spacing="3">SECTION.02</text>
+  <text x="20" y="44" font-family="monospace" font-size="15" fill="white" font-weight="bold" letter-spacing="4">&#x25C6; BATTLE STATS</text>
+  <line x1="280" y1="30" x2="780" y2="30" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <text x="724" y="26" font-family="monospace" font-size="9" fill="rgba(248,113,113,0.3)" letter-spacing="2">RIZKY-KANATA</text>
+  <text x="780" y="26" font-family="monospace" font-size="9" fill="rgba(196,0,26,0.6)" letter-spacing="2">/01</text>
+  <circle cx="840" cy="30" r="4" fill="none" stroke="rgba(196,0,26,0.4)" stroke-width="1"/>
+  <circle cx="840" cy="30" r="2" fill="#c4001a" opacity="0.7"/>
 </svg>

@@ -40,7 +40,7 @@ const ITEMS = [
 	{
 		id: "profiles",
 		label: "SOCIAL PROFILES",
-		handle: "@wal-z1",
+		handle: "@Rizky-kanata",
 		href: SOCIAL_LINKS[0].href,
 		icon: "DEV",
 		barIcon: icon1,

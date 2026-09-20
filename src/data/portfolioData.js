@@ -1,7 +1,7 @@
 export const PROFILE = {
-	name: "Walid Bouhenika",
-	tagline: "CS Student @ESI Algiers",
-	bio: "CS Student coding random projects and doing CTFs for fun. I make random things, check out the repos.",
+	name: "Muhammad Rizky Ardian",
+	tagline: "Full-Stack Developer | S.E.E.S. Operative",
+	bio: "Full-Stack Developer based in Indonesia. Building, breaking, and repeating. Specializes in JS/TS, React, Node.js, and Python. CTF enthusiast. Persona 3 enjoyer.",
 };
 
 export const SKILLS_DATA = [
@@ -99,99 +99,62 @@ export const SKILLS_DATA = [
 export const PROJECTS_DATA = [
 	{
 		title: "CTF Writeups",
-		description:
-			"CTF challenge writeups and solutions. They are Posted on Medium and Gitbook.",
+		description: "CTF challenge writeups and solutions. They are Posted on Medium and Gitbook.",
 		liveUrl: "https://wal-z1.gitbook.io/ctf-writeups/",
-		imageUrl:
-			"https://wal-z1.gitbook.io/ctf-writeups/~gitbook/image?url=https%3A%2F%2F2624154400-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F4OvKEpLXu1wSu4axZw47%252Fuploads%252FIpUdZCncnMwSHYOrK8Gj%252Fimage.png%3Falt%3Dmedia%26token%3D9c012983-2c3f-409c-b926-4a3ca4cecbdd&width=400&dpr=3&quality=100&sign=33a826a4&sv=2",
+		imageUrl: "https://wal-z1.gitbook.io/ctf-writeups/~gitbook/image?url=https%3A%2F%2F2624154400-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F4OvKEpLXu1wSu4axZw47%252Fuploads%252FIpUdZCncnMwSHYOrK8Gj%252Fimage.png%3Falt%3Dmedia%26token%3D9c012983-2c3f-409c-b926-4a3ca4cecbdd&width=400&dpr=3&quality=100&sign=33a826a4&sv=2",
 	},
 	{
-		title: "Sand",
-		description:
-			"A social platform named Sand, focused on clean design and simplicity. The Frontend is mostly built however no backend integration YET!",
-		liveUrl: "https://github.com/wal-z1/Sand",
-		imageUrl: "/Images/SANDUncompletedScreen.png",
+		title: "Rizky-kanata Profile",
+		description: "My personal GitHub profile configured with the Persona 3 theme.",
+		liveUrl: "https://github.com/Rizky-kanata/Rizky-kanata",
+		imageUrl: "https://github-readme-stats.vercel.app/api/pin/?username=Rizky-kanata&repo=Rizky-kanata&theme=dark",
 	},
 	{
-		title: "Book Tracker",
-		description:
-			"A minimal book tracker simple design , Really simple and isn't overloaded with features",
-		imageUrl: "/Images/booktr.png",
-		liveUrl: "https://github.com/wal-z1/book-tracker",
-	},
-	{
-		title: "1CP Semester Calculator",
-		description:
-			"A web-based calculator to help 1CP(ESI) students organize and calculate their semester marks.",
-		imageUrl: "/Images/Screenshot 1cpavg .png",
-		liveUrl: "https://github.com/wal-z1/1CP-Avg",
-	},
-	{
-		title: "Echo",
-		description:
-			"Real-time chat application with FastAPI WebSocket backend and React frontend. Supports multiple chat rooms with live user presence and instant message broadcasting.",
-		imageUrl: "/Images/ECHO.png",
-		liveUrl: "https://github.com/wal-z1/Echo",
-	},
-	{
-		title: "GLSL Shader Experiments",
-		description:
-			"Collection of GLSL fragment shaders exploring graphics programming concepts. Built with Three.js and React, demonstrating visual effects and mathematical animations.",
-		imageUrl: "/Images/opengl.jpg",
-		liveUrl: "https://github.com/wal-z1/GLSL-mini",
+		title: "Persona 3 GitHub Theme",
+		description: "A dark hour themed portfolio using React and Vite.",
+		imageUrl: "https://github-readme-stats.vercel.app/api/pin/?username=Rizky-kanata&repo=persona3&theme=dark",
+		liveUrl: "https://github.com/Rizky-kanata/persona3",
 	},
 	{
 		title: "Check My GitHub",
-		description:
-			"For more projects, visit my GitHub profile where I regularly update my repositories.",
-		imageUrl: "/Images/Github.webp",
-		liveUrl: "https://github.com/wal-z1",
+		description: "For more projects, visit my GitHub profile where I regularly update my repositories.",
+		imageUrl: "https://github-readme-stats.vercel.app/api?username=Rizky-kanata&show_icons=true&theme=dark",
+		liveUrl: "https://github.com/Rizky-kanata",
 	},
 ];
 
 export const TIMELINE_EVENTS = [
 	{
-		category: "Achievement",
-		title: "Onsite CTF - Cyber Summit - 2026",
-		text: "Competed with Team IrgaZEN at Cyber Summit hosted by Shellmates & Quanta Club. Placed #2, tied with the 1st team on points because of time difference.",
-		timetext: "February 2026",
-	},
-	{
-		category: "Achievement",
-		title: "First On-Site CTF - BSides Algiers 2025",
-		text: "Competed with Team IrgaZEN at BSides Algiers 7th edition hosted by Shellmates. Placed #7 on-site and #18 online out of 330 teams.",
-		timetext: "December 2025",
-	},
-	{
-		category: "Education",
-		title: "Computer Science Engineering Student",
-		text: "Currently pursuing a degree at the Higher National School of Computer Science (ESI), Algiers.",
+		category: "Professional",
+		title: "Full-Stack Developer",
+		text: "Building web applications with React, Node.js, Python. Focus on clean, performant code and dark-themed UIs.",
 		timetext: "2024 - Present",
 	},
 	{
 		category: "Education",
-		title: "Baccalaureate in Mathematics",
-		text: "Graduated from Nasri Ramdan High, achieving a score of 18.66/20.",
-		timetext: "July 2024",
+		title: "Bachelor of Computer Science",
+		text: "Studying Computer Science with focus on software engineering and web technologies.",
+		timetext: "2022 - Present",
 	},
 	{
-		category: "Professional Experience",
-		title: "Freelance Video Editor",
-		text: "Edited video content for various clients. Open to new projects.",
-		timetext: "Summer 2022 - Present",
+		category: "Achievement",
+		title: "Persona 3 Themed Portfolio",
+		text: "Created a fully themed personal portfolio and GitHub profile using Persona 3 Dark Hour aesthetics with React, Framer Motion, and custom SVG assets.",
+		timetext: "2026",
+	},
+	{
+		category: "Achievement",
+		title: "Open Source Contributions",
+		text: "Contributing to open source projects and maintaining personal repositories on GitHub.",
+		timetext: "2023 - Present",
 	},
 ];
 
 export const SOCIAL_LINKS = [
-	{ label: "GitHub", href: "https://github.com/wal-z1" },
-	{ label: "LinkedIn", href: "https://www.linkedin.com/in/bouhenika-walid/" },
-	{ label: "Email", href: "mailto:ow_bouhenika@esi.dz" },
-	{ label: "picoCTF", href: "https://play.picoctf.org/users/walid_z1" },
-	{
-		label: "HackTheBox",
-		href: "https://app.hackthebox.com/public/users/2941075",
-	},
-	{ label: "CTF Writeups", href: "https://wal-z1.gitbook.io/ctf-writeups/" },
+	{ label: "GitHub", href: "https://github.com/Rizky-kanata" },
+	{ label: "LinkedIn", href: "https://www.linkedin.com/in/rizky-ardian/" },
+	{ label: "Email", href: "mailto:rizkyardian@gmail.com" },
+	{ label: "Instagram", href: "https://instagram.com/rizkyardian" },
 ];
 
 export const ALL_LINKS = [
