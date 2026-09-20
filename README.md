@@ -2,7 +2,7 @@
 
 <!--=== TARTARUS ACCESS TERMINAL ===-->
 
-<img src="src/assets/personaa-small.gif" width="420" alt="Persona">
+<img src="src/assets/personaa-small.gif" width="860" alt="Persona">
 
 <br/>
 
