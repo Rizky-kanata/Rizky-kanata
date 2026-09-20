@@ -1,0 +1,32 @@
+<svg width="860" height="190" viewBox="0 0 860 190" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#04060f"/>
+      <stop offset="100%" style="stop-color:#0a1a3a"/>
+    </linearGradient>
+    <linearGradient id="bluG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0d2560"/>
+      <stop offset="100%" style="stop-color:#1a3d7a"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="190" fill="url(#bgG)" rx="8"/>
+  <polygon points="0,0 340,0 290,190 0,190" fill="url(#bluG)" opacity="0.6"/>
+  <polygon points="335,0 360,0 310,190 285,190" fill="#2a5ca8" opacity="0.4"/>
+  <rect x="852" y="0" width="8" height="190" fill="#c4001a"/>
+  <rect x="843" y="0" width="3" height="190" fill="rgba(245,122,139,0.3)"/>
+  <rect x="0" y="0" width="860" height="4" fill="#c4001a" rx="8"/>
+  <rect x="12" y="12" width="24" height="3" fill="#c4001a"/>
+  <rect x="12" y="12" width="3" height="24" fill="#c4001a"/>
+  <text x="24" y="178" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.2)" letter-spacing="3">DARK HOUR &#xFF0F; &#x6697;&#x3044;&#x6642;&#x9593; &#xFF0F; MEMENTO MORI</text>
+  <text x="46" y="90" font-family="Arial Black,Impact,sans-serif" font-size="50" font-weight="900" fill="white" letter-spacing="4">WALID</text>
+  <text x="46" y="146" font-family="Arial Black,Impact,sans-serif" font-size="50" font-weight="900" fill="white" letter-spacing="4" opacity="0.85">BOUHENIKA</text>
+  <rect x="380" y="38" width="160" height="24" fill="#c4001a" opacity="0.9" rx="2"/>
+  <text x="390" y="55" font-family="monospace" font-size="12" fill="white" font-weight="bold" letter-spacing="2">CS STUDENT</text>
+  <rect x="380" y="70" width="200" height="24" fill="#0d2560" opacity="0.9" rx="2"/>
+  <text x="390" y="87" font-family="monospace" font-size="12" fill="#7ab3ff" font-weight="bold" letter-spacing="2">CTF PLAYER</text>
+  <rect x="380" y="102" width="240" height="24" fill="#0d2560" opacity="0.9" rx="2"/>
+  <text x="390" y="119" font-family="monospace" font-size="12" fill="#7ab3ff" font-weight="bold" letter-spacing="2">REACT &#xFF0F; FASTAPI &#xFF0F; C</text>
+  <text x="380" y="154" font-family="monospace" font-size="11" fill="rgba(255,255,255,0.45)" letter-spacing="2">@ESI ALGIERS &#xB7; ALGERIA</text>
+  <circle cx="650" cy="55" r="55" fill="none" stroke="rgba(42,92,168,0.25)" stroke-width="1.5"/>
+  <circle cx="650" cy="55" r="5" fill="#2a5ca8" opacity="0.6"/>
+</svg>
