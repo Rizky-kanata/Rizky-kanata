@@ -1,7 +1,7 @@
-<svg width="860" height="32" viewBox="0 0 860 32" xmlns="http://www.w3.org/2000/svg">
+﻿<svg width="860" height="32" viewBox="0 0 860 32" xmlns="http://www.w3.org/2000/svg">
   <rect width="860" height="32" fill="#04060f" rx="4"/>
   <polygon points="0,0 200,0 176,32 0,32" fill="#0d2560" opacity="0.7"/>
   <rect x="0" y="0" width="860" height="2" fill="#c4001a"/>
-  <text x="16" y="21" font-family="monospace" font-size="12" fill="white" font-weight="bold" letter-spacing="4">&#x2B21; SKILL BOARD</text>
-  <text x="720" y="21" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.3)" letter-spacing="2">SYS &#xFF0F; 02</text>
+  <text x="16" y="21" font-family="monospace" font-size="12" fill="white" font-weight="bold" letter-spacing="4">&#x2B21; ARCANA &#x2014; SKILL BOARD</text>
+  <text x="620" y="21" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.3)" letter-spacing="2">RIZKY-KANATA &#xFF0F; 02</text>
 </svg>

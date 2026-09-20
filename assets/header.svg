@@ -1,4 +1,4 @@
-<svg width="860" height="190" viewBox="0 0 860 190" xmlns="http://www.w3.org/2000/svg">
+﻿<svg width="860" height="190" viewBox="0 0 860 190" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#04060f"/>
@@ -18,15 +18,18 @@
   <rect x="12" y="12" width="24" height="3" fill="#c4001a"/>
   <rect x="12" y="12" width="3" height="24" fill="#c4001a"/>
   <text x="24" y="178" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.2)" letter-spacing="3">DARK HOUR &#xFF0F; &#x6697;&#x3044;&#x6642;&#x9593; &#xFF0F; MEMENTO MORI</text>
-  <text x="46" y="90" font-family="Arial Black,Impact,sans-serif" font-size="50" font-weight="900" fill="white" letter-spacing="4">WALID</text>
-  <text x="46" y="146" font-family="Arial Black,Impact,sans-serif" font-size="50" font-weight="900" fill="white" letter-spacing="4" opacity="0.85">BOUHENIKA</text>
-  <rect x="380" y="38" width="160" height="24" fill="#c4001a" opacity="0.9" rx="2"/>
-  <text x="390" y="55" font-family="monospace" font-size="12" fill="white" font-weight="bold" letter-spacing="2">CS STUDENT</text>
+  <text x="46" y="90" font-family="Arial Black,Impact,sans-serif" font-size="50" font-weight="900" fill="white" letter-spacing="4">RIZKY</text>
+  <text x="46" y="146" font-family="Arial Black,Impact,sans-serif" font-size="50" font-weight="900" fill="white" letter-spacing="4" opacity="0.85">ARDIAN</text>
+  <rect x="380" y="38" width="180" height="24" fill="#c4001a" opacity="0.9" rx="2"/>
+  <text x="390" y="55" font-family="monospace" font-size="12" fill="white" font-weight="bold" letter-spacing="2">S.E.E.S. OPERATIVE</text>
   <rect x="380" y="70" width="200" height="24" fill="#0d2560" opacity="0.9" rx="2"/>
-  <text x="390" y="87" font-family="monospace" font-size="12" fill="#7ab3ff" font-weight="bold" letter-spacing="2">CTF PLAYER</text>
-  <rect x="380" y="102" width="240" height="24" fill="#0d2560" opacity="0.9" rx="2"/>
-  <text x="390" y="119" font-family="monospace" font-size="12" fill="#7ab3ff" font-weight="bold" letter-spacing="2">REACT &#xFF0F; FASTAPI &#xFF0F; C</text>
-  <text x="380" y="154" font-family="monospace" font-size="11" fill="rgba(255,255,255,0.45)" letter-spacing="2">@ESI ALGIERS &#xB7; ALGERIA</text>
-  <circle cx="650" cy="55" r="55" fill="none" stroke="rgba(42,92,168,0.25)" stroke-width="1.5"/>
-  <circle cx="650" cy="55" r="5" fill="#2a5ca8" opacity="0.6"/>
+  <text x="390" y="87" font-family="monospace" font-size="12" fill="#7ab3ff" font-weight="bold" letter-spacing="2">DEVELOPER</text>
+  <rect x="380" y="102" width="280" height="24" fill="#0d2560" opacity="0.9" rx="2"/>
+  <text x="390" y="119" font-family="monospace" font-size="12" fill="#7ab3ff" font-weight="bold" letter-spacing="2">JS &#xFF0F; TS &#xFF0F; REACT &#xFF0F; NODE</text>
+  <text x="380" y="154" font-family="monospace" font-size="11" fill="rgba(255,255,255,0.45)" letter-spacing="2">@Rizky-kanata &#xB7; INDONESIA</text>
+  <circle cx="680" cy="95" r="65" fill="none" stroke="rgba(196,0,26,0.2)" stroke-width="1.5"/>
+  <circle cx="680" cy="95" r="40" fill="none" stroke="rgba(42,92,168,0.2)" stroke-width="1"/>
+  <circle cx="680" cy="95" r="6" fill="#c4001a" opacity="0.7"/>
+  <text x="680" y="40" font-family="monospace" font-size="8" fill="rgba(196,0,26,0.5)" text-anchor="middle" letter-spacing="3">PERSONA</text>
+  <text x="680" y="158" font-family="monospace" font-size="8" fill="rgba(196,0,26,0.5)" text-anchor="middle" letter-spacing="3">ACTIVE</text>
 </svg>
