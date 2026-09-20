@@ -85,11 +85,29 @@ PERSONA    : Active - Standing By
 
 <br/>
 
-<a href="https://github.com/Rizky-kanata/Rizky-kanata">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rizky-kanata&repo=Rizky-kanata&theme=transparent&hide_border=true&bg_color=04060f&title_color=00D4FF&icon_color=c4001a&text_color=ffffff" alt="Profile Repo">
+<a href="https://github.com/Rizky-kanata/Semantic">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rizky-kanata&repo=Semantic&theme=transparent&hide_border=true&bg_color=04060f&title_color=00D4FF&icon_color=c4001a&text_color=ffffff" width="410" alt="Semantic">
 </a>
-<a href="https://github.com/Rizky-kanata/persona3">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rizky-kanata&repo=persona3&theme=transparent&hide_border=true&bg_color=04060f&title_color=00D4FF&icon_color=c4001a&text_color=ffffff" alt="Persona3 Repo">
+<a href="https://github.com/Rizky-kanata/Form">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rizky-kanata&repo=Form&theme=transparent&hide_border=true&bg_color=04060f&title_color=00D4FF&icon_color=c4001a&text_color=ffffff" width="410" alt="Form">
+</a>
+
+<br/>
+
+<a href="https://github.com/Rizky-kanata/modul-4">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rizky-kanata&repo=modul-4&theme=transparent&hide_border=true&bg_color=04060f&title_color=00D4FF&icon_color=c4001a&text_color=ffffff" width="410" alt="modul-4">
+</a>
+<a href="https://github.com/Rizky-kanata/modul-13">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rizky-kanata&repo=modul-13&theme=transparent&hide_border=true&bg_color=04060f&title_color=00D4FF&icon_color=c4001a&text_color=ffffff" width="410" alt="modul-13">
+</a>
+
+<br/>
+
+<a href="https://github.com/Rizky-kanata/modul-7">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rizky-kanata&repo=modul-7&theme=transparent&hide_border=true&bg_color=04060f&title_color=00D4FF&icon_color=c4001a&text_color=ffffff" width="410" alt="modul-7">
+</a>
+<a href="https://github.com/Rizky-kanata/dwdwd">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Rizky-kanata&repo=dwdwd&theme=transparent&hide_border=true&bg_color=04060f&title_color=00D4FF&icon_color=c4001a&text_color=ffffff" width="410" alt="dwdwd">
 </a>
 
 <br/><br/>
