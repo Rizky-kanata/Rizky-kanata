@@ -4,7 +4,7 @@
 
 <img src="src/assets/personaa-small.gif" width="860" alt="Persona">
 
-<br/>
+<br/><br/>
 
 <img src="assets/header.svg" width="860" alt="Muhammad Rizky Ardian - S.E.E.S. Operative">
 
