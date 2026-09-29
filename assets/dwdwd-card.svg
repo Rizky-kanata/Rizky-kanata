@@ -34,7 +34,7 @@
   
   <!-- Stats/Footer -->
   <circle cx="23" cy="97" r="6" fill="#e34c26" />
-  <text x="36" y="101" font-family="monospace" font-weight="600" font-size="12" fill="#ffffff">Unknown</text>
+  <text x="36" y="101" font-family="monospace" font-weight="600" font-size="12" fill="#ffffff">N/A</text>
   
   <!-- Grid/Tech line -->
   <path d="M 320 115 L 400 115 L 405 110" fill="none" stroke="#00D4FF" stroke-width="1" opacity="0.3"/>
